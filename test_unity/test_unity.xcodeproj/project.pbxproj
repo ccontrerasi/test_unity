@@ -17,6 +17,7 @@
 		71E679F62A30E07F00C36D80 /* test_unityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E679F52A30E07F00C36D80 /* test_unityTests.swift */; };
 		71E67A002A30E07F00C36D80 /* test_unityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E679FF2A30E07F00C36D80 /* test_unityUITests.swift */; };
 		71E67A022A30E07F00C36D80 /* test_unityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E67A012A30E07F00C36D80 /* test_unityUITestsLaunchTests.swift */; };
+		71F358B52A320A05002AD611 /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F358B42A320A05002AD611 /* LaunchScreen-iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		71E679FB2A30E07F00C36D80 /* test_unityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_unityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E679FF2A30E07F00C36D80 /* test_unityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_unityUITests.swift; sourceTree = "<group>"; };
 		71E67A012A30E07F00C36D80 /* test_unityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_unityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71F358B42A320A05002AD611 /* LaunchScreen-iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "LaunchScreen-iPhone.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				71E679E62A30E07D00C36D80 /* ContentView.swift */,
 				71E679E82A30E07F00C36D80 /* Assets.xcassets */,
 				71E679EA2A30E07F00C36D80 /* Preview Content */,
+				71F358B42A320A05002AD611 /* LaunchScreen-iPhone.storyboard */,
 			);
 			path = test_unity;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F358B52A320A05002AD611 /* LaunchScreen-iPhone.storyboard in Resources */,
 				71E679EC2A30E07F00C36D80 /* Preview Assets.xcassets in Resources */,
 				71E679E92A30E07F00C36D80 /* Assets.xcassets in Resources */,
 			);
