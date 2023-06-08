@@ -1,0 +1,68 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonReturn">
+			<method name="CloseApp"/>
+			<method name="CloseApp"/>
+			<method name="CloseApp"/>
+			<method name="CloseApp"/>
+			<method name="CloseApp"/>
+		</type>
+		<type fullname="CarruselImageGallery">
+			<method name="NextPage"/>
+			<method name="NextPage"/>
+			<method name="OnClickExit"/>
+			<method name="PreviusImage"/>
+			<method name="PreviusImage"/>
+		</type>
+		<type fullname="Controls360">
+			<method name="LeftRotation"/>
+			<method name="RightRotation"/>
+		</type>
+		<type fullname="Miniatura">
+			<method name="OnClick360"/>
+			<method name="OnClickAudioGuia"/>
+			<method name="OnClickExit"/>
+			<method name="OnClickMiniatura"/>
+			<method name="OnClickVideoGuia"/>
+			<method name="OnClickViedo"/>
+			<method name="OnExit360"/>
+		</type>
+		<type fullname="SliderAudioGuias">
+			<method name="Exit"/>
+			<method name="Pause"/>
+			<method name="Play"/>
+			<method name="Reset"/>
+		</type>
+		<type fullname="SliderVideo">
+			<method name="ExitVideo"/>
+			<method name="Pause"/>
+			<method name="Play"/>
+			<method name="Reset"/>
+		</type>
+		<type fullname="SliderVideoGuias">
+			<method name="Exit"/>
+			<method name="Pause"/>
+			<method name="Play"/>
+			<method name="Reset"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
