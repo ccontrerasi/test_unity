@@ -164,6 +164,7 @@
 		707042AD9DA388E6B0AD54A0 /* Newtonsoft.Json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6D64F3093344F0DBD622164 /* Newtonsoft.Json.cpp */; };
 		707D4C23839DE05CE441DC8E /* System.Core2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7148B8BEB6D8AAD95BD01A /* System.Core2.cpp */; };
 		71364DD5B547A09E05D1D632 /* UnityEngine.InputModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12FD470EA7EB05F4E05932B2 /* UnityEngine.InputModule.cpp */; };
+		71C15FA42A332130006AAE15 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		71C84CBBB38602E8E8EA5976 /* UnityEngine.UIElementsNativeModule_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = B40542D4A31259902D863C3C /* UnityEngine.UIElementsNativeModule_CodeGen.c */; };
 		722E4B50B4CBF667FB846B8D /* UnityEngine.XRModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 052B438AA58BE9720174F225 /* UnityEngine.XRModule.cpp */; };
 		727145698990B88C2BCE01DC /* UnityEngine.AssetBundleModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C67B43FBA522A6E4A94BE9CD /* UnityEngine.AssetBundleModule.cpp */; };
@@ -292,6 +293,7 @@
 		9D690CDE21BFD3D9005026B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */; };
 		9D690CDF21BFD3E3005026B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		9D7D4F999473679534F0A5DC /* Newtonsoft.Json2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4946ADB095B0079F15DEA1 /* Newtonsoft.Json2.cpp */; };
+		9D9DE4EA221D84E60049D9A1 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		9DA3B0442174CB96001678C7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3B0432174CB96001678C7 /* main.mm */; };
 		9DBC46AB9899C151CC231492 /* Unity.Burst.Unsafe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 264349A99FD61EFAEA21A31C /* Unity.Burst.Unsafe.cpp */; };
 		9DC67E8521CBBEBB005F9FA1 /* UnityAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A851BA816FB3AD000E911DB /* UnityAppController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -521,7 +523,7 @@
 		1C44442D8C43E781B971A6B5 /* Generics13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics13.cpp; path = Classes/Native/Generics13.cpp; sourceTree = SOURCE_ROOT; };
 		1C544502A7F6C216838D3374 /* UnityEngine.UIElementsModule2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule2.cpp; path = Classes/Native/UnityEngine.UIElementsModule2.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Plantilla2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plantilla2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unity-Target-New.app"; path = Plantilla2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE3491BB27159036C48F151 /* System5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System5.cpp; path = Classes/Native/System5.cpp; sourceTree = SOURCE_ROOT; };
 		1E114E529DB6BD66846D307B /* System.Data8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Data8.cpp; path = Classes/Native/System.Data8.cpp; sourceTree = SOURCE_ROOT; };
 		1E4E4972BF5DE670786733EC /* Generics30.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics30.cpp; path = Classes/Native/Generics30.cpp; sourceTree = SOURCE_ROOT; };
@@ -815,6 +817,7 @@
 		A94343A683FE98EDD42B547B /* UnityEngine.CoreModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.CoreModule.cpp; path = Classes/Native/UnityEngine.CoreModule.cpp; sourceTree = SOURCE_ROOT; };
 		A95040ACBA65D00BEF626D21 /* UnityEngine.UIModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UIModule_CodeGen.c; path = Classes/Native/UnityEngine.UIModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		AA0745D6B7027DA9AD38B3C1 /* System.Xml2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System.Xml2.cpp; path = Classes/Native/System.Xml2.cpp; sourceTree = SOURCE_ROOT; };
+		AA31BF961B55660D0013FB1B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		AA5D99861AFAD3C800B27605 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
@@ -997,7 +1000,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Plantilla2021.app */,
+				1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */,
 				5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */,
 				9D25AB9D213FB47800354C27 /* UnityFramework.framework */,
 			);
@@ -1007,6 +1010,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				AA31BF961B55660D0013FB1B /* Data */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				9DA3B0422174CB96001678C7 /* MainApp */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
@@ -1635,7 +1639,7 @@
 			);
 			name = "Unity-iPhone";
 			productName = "iPhone-target";
-			productReference = 1D6058910D05DD3D006BFB54 /* Plantilla2021.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5623C57217FDCB0800090B9E /* Unity-iPhone Tests */ = {
@@ -1682,8 +1686,7 @@
 			attributes = {
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 9372R2B8VZ;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
 								enabled = 1;
@@ -1727,6 +1730,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9DE4EA221D84E60049D9A1 /* Data in Resources */,
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
 				1FAC41D09DD58D40BD2C6C36 /* LaunchScreen-iPhone.storyboard in Resources */,
 				C5E84518A4BA2502992EDC0E /* LaunchScreen-iPhonePortrait.png in Resources */,
@@ -1748,6 +1752,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C15FA42A332130006AAE15 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2198,10 +2203,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 9372R2B8VZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
@@ -2220,7 +2225,7 @@
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2240,10 +2245,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 9372R2B8VZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -2260,7 +2265,7 @@
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2415,11 +2420,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9372R2B8VZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -2436,7 +2441,7 @@
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2540,10 +2545,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 9372R2B8VZ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -2560,7 +2565,7 @@
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "$(PROVISIONING_PROFILE_SPECIFIER_APP)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
